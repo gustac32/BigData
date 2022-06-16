@@ -188,5 +188,30 @@ is.data.frame(data)
 str(data)
 print(summary(data))
 
+data1 <- read.csv("input.csv")
+print(data1)
+print(nrow(data1))
+print(ncol(data1))
+
+str(data1)
+
+print(summary(data1))
+m <- max(data1$salary, na.rm = TRUE)
+m
+
+m1 <- mean(data1$salary, na.rm = TRUE)
+m2
+
+m3 <- median(data1$salary,na.rm = TRUE)
+m3
+
+m4 <- sum(data1$salary, na.rm = TRUE)
+m4
+
+re <- subset(data1, salary == max(data1$salary , na.rm = TRUE))
+re
+
+si <- subset(data1, dept == "IT")
+si
 
 
