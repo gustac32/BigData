@@ -211,7 +211,30 @@ m4
 re <- subset(data1, salary == max(data1$salary , na.rm = TRUE))
 re
 
-si <- subset(data1, dept == "IT")
+si <- subset(data1, data1$dept == "IT")
 si
+
+gsub(data1,data1$dept == "IT",fixed = TRUE)
+si <- subset(data1, data1$dept == "IT")
+si
+
+gsub("[[:sapce:]]", "", data1)
+gsub("\\s", "", data1)
+library(regex)
+gsub(data1(), "", data1)
+
+si <- subset(data1, data1$dept == "IT")
+si
+
+install.packages("XML", epos = "http://www.omegahat.net/R")
+library("XML")
+library("methods")
+results <- xmlToDataFrame("input.xml")
+print(results)
+
+read.csv("train.csv", stringsAsFactors = FALSE)
+
+View(Titanic)
+
 
 
