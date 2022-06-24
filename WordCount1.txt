@@ -2,4 +2,8 @@ Hadoop is the Elephant King!
 A yellow and elegant thing.
 He never forgets
 Useful data, or lets
+<<<<<<< HEAD
 An extraneous element cling!
+=======
+An extraneous element cling!
+>>>>>>> 9ddd7cfc3357a8af9f343360c39f2ed16350aa2b
