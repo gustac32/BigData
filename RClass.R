@@ -155,7 +155,7 @@ set.seed(2)
 r2 <- runif(5)
 r2
 
-data <- c("east","west","east","north","north","east","west","west","west","east","north")
+fdata <- c("east","west","east","north","north","east","west","west","west","east","north")
 print(is.factor(data))
 fdata
 emp.data<-data.frame(
